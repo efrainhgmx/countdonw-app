@@ -5,7 +5,7 @@ import './style.css';
 export const CounterDown = () => {
     return (
         <div className="bg-container">
-            <section  className="counterdown-cointainer">
+            <section  className="counterdown-wrapper">
                 <div>
                     <span className="date">08</span>
                     <p>Días</p>

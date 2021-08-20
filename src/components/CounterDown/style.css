@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
 
+:root {
+    --bg-date: #1A1A1A;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -18,4 +22,20 @@ body {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterdown-wrapper {
+    max-inline-size: 800px;
+    border: 1px solid red;
+}
+
+.date {
+    display: inline-block;
+    background-color: var(--bg-date);
+    border-radius: 16px;
+    padding: 32px 16px;
+    font-size: 12rem;
 }
