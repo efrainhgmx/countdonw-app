@@ -7,22 +7,22 @@ export const CounterDown = () => {
         <div className="bg-container">
             <section  className="counterdown-wrapper">
                 <div>
-                    <span className="date">08</span>
+                    <span className="date" id="days">08</span>
                     <p>Días</p>
                 </div>
 
                 <div>
-                    <span className="date">10</span>
+                    <span className="date" id="hours">10</span>
                     <p>Horas</p>
                 </div>
 
                 <div>
-                    <span className="date">35</span>
+                    <span className="date" id="minutes">35</span>
                     <p>Minutos</p>
                 </div>
 
                 <div>
-                    <span className="date">24</span>
+                    <span className="date" id="seconds">24</span>
                     <p>Segundos</p>
                 </div>
             </section>
